@@ -1,0 +1,22 @@
+/* Basic styling for the app (add more as needed) */
+#app {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#auth-container, #schedule-container {
+    margin-top: 20px;
+}
+
+/* Example: Styling for schedule table (add more as needed) */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
