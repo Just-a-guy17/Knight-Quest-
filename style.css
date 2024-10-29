@@ -1,22 +1,63 @@
-/* Basic styling for the app (add more as needed) */
+/* Basic Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
 #app {
-    font-family: sans-serif;
-    text-align: center;
-}
-
-#auth-container, #schedule-container {
-    margin-top: 20px;
-}
-
-/* Example: Styling for schedule table (add more as needed) */
-table {
-    width: 80%;
+    max-width: 800px;
     margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form Styling */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    margin-top: 20px;
     border-collapse: collapse;
 }
 
 th, td {
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
+}
+
+th {
+    background-color: #f5f5f5;
 }
